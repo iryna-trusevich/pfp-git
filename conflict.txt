@@ -1,0 +1,12 @@
+nano folder/text.txt
+
+<<<<<<< HEAD
+First line
+=======
+Different first line
+>>>>>>> second_from_develop
+
+
+git add folder/text.txt
+git commit -m "Resolve conflict"
+git push -u origin develop
